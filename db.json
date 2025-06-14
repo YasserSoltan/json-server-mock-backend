@@ -1,0 +1,104 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "email": "user1@example.com",
+      "password": "password123",
+      "username": "JohnDoe",
+      "fullName": "Jane Smith",
+      "avatar": "https://res.cloudinary.com/dub06vpkr/image/upload/v1749845151/samples/woman-on-a-football-field.jpg",
+      "bio": "bio",
+      "isPrivate": false,
+      "isVerified": false,
+      "followersCount": 0,
+      "followingCount": 0,
+      "postsCount": 0
+    },
+    {
+      "id": 2,
+      "email": "user2@example.com",
+      "password": "password456",
+      "username": "JaneSmith",
+      "fullName": "Jane Smith",
+      "avatar": "https://res.cloudinary.com/dub06vpkr/image/upload/v1749845151/samples/woman-on-a-football-field.jpg",
+      "bio": "bio",
+      "isPrivate": false,
+      "isVerified": false,
+      "followersCount": 0,
+      "followingCount": 0,
+      "postsCount": 0
+    },
+    {
+      "email": "yassersoltan64@gmail.com",
+      "password": "$2a$10$y6qqShvaDGzcEk0yiS1KLe.XIJE7k1eX4z6yYJvQPkME2ttAiK/Ru",
+      "username": "yasser_sultan7",
+      "fullName": "Yasser Sultan",
+      "bio": "",
+      "isPrivate": false,
+      "isVerified": false,
+      "followersCount": 0,
+      "followingCount": 0,
+      "postsCount": 0,
+      "avatar": "",
+      "id": 3
+    },
+    {
+      "email": "buzehyv@mailinator.com",
+      "password": "$2a$10$nRGi18df9zPSizkubz3xU./lRgc.HjBTcaEN27pnDcHVad1YoCO4K",
+      "username": "dosanatilu",
+      "fullName": "Kaye Gaines",
+      "bio": "",
+      "isPrivate": false,
+      "isVerified": false,
+      "followersCount": 0,
+      "followingCount": 0,
+      "postsCount": 0,
+      "avatar": "",
+      "id": 4
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "userId": 1,
+      "imageUrl": "https://res.cloudinary.com/dub06vpkr/image/upload/v1749845151/samples/cup-on-a-table.jpg",
+      "caption": "My first post!",
+      "createdAt": "2024-07-26T10:00:00Z"
+    },
+    {
+      "id": 2,
+      "userId": 2,
+      "imageUrl": "https://res.cloudinary.com/dub06vpkr/image/upload/v1749845149/samples/look-up.jpg",
+      "caption": "Having a great time!",
+      "createdAt": "2024-07-26T11:30:00Z"
+    }
+  ],
+  "likes": [
+    {
+      "id": 1,
+      "userId": 2,
+      "postId": 1
+    },
+    {
+      "id": 2,
+      "userId": 1,
+      "postId": 2
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "This is a great picture!",
+      "postId": 1,
+      "userId": 2,
+      "createdAt": "2024-07-26T10:05:00Z"
+    },
+    {
+      "id": 2,
+      "body": "Love this!",
+      "postId": 1,
+      "userId": 1,
+      "createdAt": "2024-07-26T10:15:00Z"
+    }
+  ]
+}
